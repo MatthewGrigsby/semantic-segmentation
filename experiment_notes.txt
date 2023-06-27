@@ -1,0 +1,67 @@
+EXPERIMENTS 
+
+    fpn_mit_b3_imagenet_3b_6c_1024p_v1.pth
+    Early stopping at 2075 epochs 
+    Mean IoU = 0.7974096
+    Good results on test image 
+    Jaccard loss
+    Augmentation options version 2
+    data_for_training_and_testing_n1024 - v1
+
+    manet_mit_b3_imagenet_3b_6c_1024p_v2.pth
+    Early stopping at 200 epochs 
+    Mean IoU = 0.81566745
+    Good results on test image 
+    Jaccard loss
+    Augmentation options version 2
+    data_for_training_and_testing_n1024 - v1
+
+    manet_mit_b3_imagenet_3b_6c_1024p_v1.pth
+    Early stopping at 184 epochs 
+    Mean IoU = 0.62303734
+    Good results on test image 
+    Jaccard loss
+    Augmentation options version 1 
+    data_for_training_and_testing_n1024 - v1
+
+    manet_mit_b3_imagenet_3batch_6classes_p1024_mp_v2.pth
+    Early stopping at 163 epochs 
+    Mean IoU = 0.5109086
+    Good results on test image 
+    Dice loss
+    Augmentation options version 1 
+    data_for_training_and_testing_n1024 - v1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------
+
+
+Historical IoU results: 
+
+Mean IoU of 0.82: unet_mit_b3_imagenet_3batch_6classes_p1024_v2.pth : 150 epochs, LR 0.0002
+Mean IoU of 0.80: unet_mit_b2_imagenet_4batch_6classes_p1024_v2.pth
+Mean IoU of 0.74: unet_resnet101_imagenet_4batch_6classes_p1024_v3.hdf5
+Mean IoU of 0.74: unet_resnext50_imagenet_3batch_6classes_p1024_v1.hdf5
+Mean IoU of 0.73: unet_resnet50_imagenet_6batch_6classes_p1024_v1.pth
+Mean IoU of 0.72: unet_resnet50_imagenet_5batch_6classes_p1024_v2.hdf5
+Mean IoU of 0.71: unet_resnet50_imagenet_5batch_6classes_p1024_v1.hdf5
+Mean IoU of 0.70: unet_resnet34_imagenet_5batch_6classes_p1024_v2.hdf5
+Mean IoU of 0.66: unet_resnet34_imagenet_16batch_6classes_p512_v1.hdf5
+Mean IoU of 0.63: unet_resnet50_imagenet_5batch_6classes_p1024_v2 frozen.hdf5
+Mean IoU of 0.56: unet_resnet50_imagenet_16batch_6classes_p512_v1.hdf5
