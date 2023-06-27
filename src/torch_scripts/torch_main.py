@@ -18,7 +18,7 @@ VAL_MASK_DIRECTORY_PATH = '../../data/data_for_training_and_testing_n' + str(PAT
 ##################
 N_CLASSES = 6
 BATCH_SIZE = 3
-ARCHITECTURE = 'fpn'
+ARCHITECTURE = 'manet'
 ACTIVATION = 'softmax'
 WEIGHTS = 'imagenet'
 BACKBONE = 'mit_b3'
